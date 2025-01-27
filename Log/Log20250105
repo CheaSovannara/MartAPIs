@@ -1,0 +1,34 @@
+2025-01-05 13:34:28.302 +07:00 [INF] User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-05 13:34:28.396 +07:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-01-05 13:34:28.606 +07:00 [INF] Now listening on: https://localhost:7224
+2025-01-05 13:34:28.607 +07:00 [INF] Now listening on: http://localhost:5175
+2025-01-05 13:34:28.688 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-05 13:34:28.688 +07:00 [INF] Hosting environment: Development
+2025-01-05 13:34:28.688 +07:00 [INF] Content root path: D:\C# Wedeskill\Metrix_MartAPIs\MartAPIs\Metrix_MartAPIs
+2025-01-05 13:34:29.757 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7224/swagger/index.html - null null
+2025-01-05 13:34:29.972 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7224/swagger/index.html - 200 null text/html;charset=utf-8 216.8444ms
+2025-01-05 13:34:29.994 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7224/_vs/browserLink - null null
+2025-01-05 13:34:29.994 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7224/swagger/index.js - null null
+2025-01-05 13:34:29.994 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7224/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-05 13:34:29.998 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7224/swagger/index.js - 200 null application/javascript;charset=utf-8 3.4642ms
+2025-01-05 13:34:30.013 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7224/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 18.6264ms
+2025-01-05 13:34:30.041 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7224/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.3613ms
+2025-01-05 13:34:30.199 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7224/swagger/v1/swagger.json - null null
+2025-01-05 13:34:30.256 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7224/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 57.4455ms
+2025-01-05 13:35:26.146 +07:00 [INF] User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-05 13:35:26.239 +07:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-01-05 13:35:26.433 +07:00 [INF] Now listening on: https://localhost:7224
+2025-01-05 13:35:26.434 +07:00 [INF] Now listening on: http://localhost:5175
+2025-01-05 13:35:26.515 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-05 13:35:26.516 +07:00 [INF] Hosting environment: Development
+2025-01-05 13:35:26.516 +07:00 [INF] Content root path: D:\C# Wedeskill\Metrix_MartAPIs\MartAPIs\Metrix_MartAPIs
+2025-01-05 13:35:27.503 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7224/swagger/index.html - null null
+2025-01-05 13:35:27.727 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7224/swagger/index.html - 200 null text/html;charset=utf-8 224.338ms
+2025-01-05 13:35:27.738 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7224/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-05 13:35:27.738 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7224/swagger/index.js - null null
+2025-01-05 13:35:27.741 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7224/_vs/browserLink - null null
+2025-01-05 13:35:27.743 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7224/swagger/index.js - 200 null application/javascript;charset=utf-8 4.7888ms
+2025-01-05 13:35:27.760 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7224/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 22.1305ms
+2025-01-05 13:35:27.801 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7224/_vs/browserLink - 200 null text/javascript; charset=UTF-8 60.208ms
+2025-01-05 13:35:27.849 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7224/swagger/v1/swagger.json - null null
+2025-01-05 13:35:27.883 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7224/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 33.85ms

@@ -1,0 +1,170 @@
+2025-01-03 15:56:59.999 +07:00 [INF] User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-03 15:57:00.138 +07:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-01-03 15:57:00.273 +07:00 [FTL] Application startup exception
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.ObjectPool.ObjectPool`1[Microsoft.AspNetCore.HttpLogging.HttpLoggingInterceptorContext]' while attempting to activate 'Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2025-01-03 15:57:00.330 +07:00 [ERR] Hosting failed to start
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.ObjectPool.ObjectPool`1[Microsoft.AspNetCore.HttpLogging.HttpLoggingInterceptorContext]' while attempting to activate 'Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-01-03 16:25:15.911 +07:00 [INF] User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-03 16:25:16.016 +07:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-01-03 16:25:16.162 +07:00 [FTL] Application startup exception
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.ObjectPool.ObjectPool`1[Microsoft.AspNetCore.HttpLogging.HttpLoggingInterceptorContext]' while attempting to activate 'Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2025-01-03 16:25:16.212 +07:00 [ERR] Hosting failed to start
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.ObjectPool.ObjectPool`1[Microsoft.AspNetCore.HttpLogging.HttpLoggingInterceptorContext]' while attempting to activate 'Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-01-03 16:34:38.049 +07:00 [INF] User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-03 16:34:38.150 +07:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-01-03 16:34:38.422 +07:00 [INF] Now listening on: https://localhost:7224
+2025-01-03 16:34:38.426 +07:00 [INF] Now listening on: http://localhost:5175
+2025-01-03 16:34:38.543 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-03 16:34:38.544 +07:00 [INF] Hosting environment: Development
+2025-01-03 16:34:38.544 +07:00 [INF] Content root path: D:\C# Wedeskill\Metrix_MartAPIs\MartAPIs\Metrix_MartAPIs
+2025-01-03 16:34:39.250 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7224/weatherforecast - null null
+2025-01-03 16:34:39.536 +07:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /weatherforecast
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7224
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-03 16:34:39.538 +07:00 [INF] Response:
+StatusCode: 404
+2025-01-03 16:34:39.542 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7224/weatherforecast - 404 0 null 295.0036ms
+2025-01-03 16:34:39.548 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7224/weatherforecast, Response status code: 404
+2025-01-03 16:36:06.595 +07:00 [INF] User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-03 16:36:06.695 +07:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-01-03 16:36:06.922 +07:00 [INF] Now listening on: https://localhost:7224
+2025-01-03 16:36:06.923 +07:00 [INF] Now listening on: http://localhost:5175
+2025-01-03 16:36:07.021 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-03 16:36:07.021 +07:00 [INF] Hosting environment: Development
+2025-01-03 16:36:07.021 +07:00 [INF] Content root path: D:\C# Wedeskill\Metrix_MartAPIs\MartAPIs\Metrix_MartAPIs
+2025-01-03 16:36:07.389 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7224/weatherforecast - null null
+2025-01-03 16:36:07.542 +07:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /weatherforecast
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7224
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-03 16:36:07.545 +07:00 [INF] Response:
+StatusCode: 404
+2025-01-03 16:36:07.549 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7224/weatherforecast - 404 0 null 161.9602ms
+2025-01-03 16:36:07.554 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7224/weatherforecast, Response status code: 404
+2025-01-03 16:36:29.129 +07:00 [INF] User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-03 16:36:29.227 +07:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-01-03 16:36:29.446 +07:00 [INF] Now listening on: https://localhost:7224
+2025-01-03 16:36:29.447 +07:00 [INF] Now listening on: http://localhost:5175
+2025-01-03 16:36:29.530 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-03 16:36:29.531 +07:00 [INF] Hosting environment: Development
+2025-01-03 16:36:29.531 +07:00 [INF] Content root path: D:\C# Wedeskill\Metrix_MartAPIs\MartAPIs\Metrix_MartAPIs
+2025-01-03 16:36:29.939 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7224/weatherforecast - null null
+2025-01-03 16:36:30.101 +07:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /weatherforecast
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7224
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-03 16:36:30.105 +07:00 [INF] Response:
+StatusCode: 404
+2025-01-03 16:36:30.109 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7224/weatherforecast - 404 0 null 172.8404ms
+2025-01-03 16:36:30.115 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7224/weatherforecast, Response status code: 404
+2025-01-03 16:36:42.771 +07:00 [INF] User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-03 16:36:42.865 +07:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-01-03 16:36:43.104 +07:00 [INF] Now listening on: https://localhost:7224
+2025-01-03 16:36:43.104 +07:00 [INF] Now listening on: http://localhost:5175
+2025-01-03 16:36:43.192 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-03 16:36:43.192 +07:00 [INF] Hosting environment: Development
+2025-01-03 16:36:43.192 +07:00 [INF] Content root path: D:\C# Wedeskill\Metrix_MartAPIs\MartAPIs\Metrix_MartAPIs
+2025-01-03 16:36:43.662 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7224/swagger - null null
+2025-01-03 16:36:43.819 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7224/swagger - 301 0 null 160.6467ms
+2025-01-03 16:36:43.825 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7224/swagger/index.html - null null
+2025-01-03 16:36:43.914 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7224/swagger/index.html - 200 null text/html;charset=utf-8 88.868ms
+2025-01-03 16:36:43.929 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7224/swagger/index.css - null null
+2025-01-03 16:36:43.929 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7224/swagger/swagger-ui.css - null null
+2025-01-03 16:36:43.929 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7224/swagger/swagger-ui-bundle.js - null null
+2025-01-03 16:36:43.929 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7224/swagger/swagger-ui-standalone-preset.js - null null
+2025-01-03 16:36:43.929 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7224/swagger/index.js - null null
+2025-01-03 16:36:43.930 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7224/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-03 16:36:43.937 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7224/swagger/index.js - 200 null application/javascript;charset=utf-8 7.9617ms
+2025-01-03 16:36:43.950 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7224/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 20.2999ms
+2025-01-03 16:36:43.955 +07:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-01-03 16:36:43.955 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7224/swagger/index.css - 200 202 text/css 26.4182ms
+2025-01-03 16:36:43.969 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-01-03 16:36:43.969 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-01-03 16:36:43.971 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7224/swagger/swagger-ui.css - 200 152035 text/css 42.2014ms
+2025-01-03 16:36:43.971 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7224/swagger/swagger-ui-standalone-preset.js - 200 230007 text/javascript 42.1222ms
+2025-01-03 16:36:43.978 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7224/_vs/browserLink - null null
+2025-01-03 16:36:44.012 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-01-03 16:36:44.013 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7224/swagger/swagger-ui-bundle.js - 200 1426050 text/javascript 83.4929ms
+2025-01-03 16:36:44.069 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7224/_vs/browserLink - 200 null text/javascript; charset=UTF-8 91.4288ms
+2025-01-03 16:36:44.420 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7224/swagger/v1/swagger.json - null null
+2025-01-03 16:36:44.440 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7224/swagger/favicon-32x32.png - null null
+2025-01-03 16:36:44.441 +07:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-01-03 16:36:44.441 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7224/swagger/favicon-32x32.png - 200 628 image/png 0.8192ms
+2025-01-03 16:36:44.455 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7224/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 35.2934ms
