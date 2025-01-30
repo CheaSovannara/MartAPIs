@@ -36,10 +36,12 @@ namespace Metrix_MartAPIs.Repositories.GenericRepository
             _context.SaveChanges();
             return true;
         }
-        public void Update(TEntity tentiy)
+
+        public async Task<bool> Update(TEntity tentiy)
         {
             _context.Set<TEntity>().Update(tentiy);
             _context.SaveChanges();
+            return true;
         }
     }
 }

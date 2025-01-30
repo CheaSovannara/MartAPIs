@@ -196,11 +196,6 @@ namespace Metrix_MartAPIs.Repositories.Repository
             }
         }
 
-        public void Update(Product tentiy)
-        {
-            throw new NotImplementedException();
-        }
-
         public async Task<bool> Update(Product product)
         {
             try

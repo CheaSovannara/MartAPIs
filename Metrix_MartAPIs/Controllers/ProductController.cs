@@ -117,14 +117,14 @@ namespace Metrix_MartAPIs.Controllers
             _logger.LogInformation("Start Service >>> Delete Product by Id : {DT}", DateTime.Now.ToLongTimeString());
             try
             {
-                var product = await _productRepository.Product;
-                var deleteProduct = await product.FirstOrDefaultAsync(p => p.ProductId == id);
-                if(product == null)
+                //var product =await _productRepository.Product;
+                var deleteProduct = await _productRepository.GetProductById(id);
+                if(deleteProduct == null)
                 {
                     _logger.LogInformation($"Product Id : {id} not found!");
                     return NotFound("Not found any product!");
                 }
-                else if(product != null)
+                else if(deleteProduct != null)
                 {
                     return Ok("Product is Deleted!");
                 }

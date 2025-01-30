@@ -122,7 +122,7 @@ namespace Metrix_MartAPIs.Controllers
             try
             {
                 // Await the task to get the IQueryable<Categories> 
-                var categories = await _categories.Category;
+                var categories = await _categories.Category();
 
                 // Now you can use FirstOrDefaultAsync on the IQueryable
                 var category = await categories.FirstOrDefaultAsync(c => c.CategoryId == id);

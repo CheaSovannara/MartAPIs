@@ -5,7 +5,7 @@
         public TEntiy GetById(string id);
         public List<TEntiy> GetAll();
         public Task AddAsync(TEntiy tentiy);
-        public void Update(TEntiy tentiy);
+        public Task<bool> Update(TEntiy tentiy);
         public Task<bool> DeleteById(string id);
     }
 }
